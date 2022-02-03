@@ -1,4 +1,4 @@
 venv
 venv3
 export_env_vars.sh
-.vscode
+.vscode/
