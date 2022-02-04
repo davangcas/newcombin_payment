@@ -38,5 +38,17 @@ transactions params in GET method:
 - start_date
 - end_date
 
+Payables fields:
+- barcode
+- service_type
+- description
+- expiration_date
+- amount
+- status
 
-
+Transaction fields:
+- payable
+- method
+- card_number
+- amount
+- payment_day
