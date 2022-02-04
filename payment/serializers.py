@@ -19,7 +19,9 @@ class PayableSerializerGet(serializers.ModelSerializer):
         fields = ['expiration_date', 'amount' ,'bar_code']
 
 
-class TransactionSerializer(serializers.ModelSerializer):
+class TransactionSerializer(serializers.Serializer):
+
+    payment_date = serializers.DateField()
 
     class Meta:
         model = Transaction

@@ -21,7 +21,7 @@ class Transaction(models.Model):
     method = models.CharField(max_length=15, choices=PAY_METHODS)
     card_number = models.CharField(max_length=19, blank=True, null=True)
     amount = models.DecimalField(max_digits=20, decimal_places=2)
-    payment_date = models.DateTimeField()
+    payment_date = models.DateField()
 
     class Meta:
         verbose_name = "Transaction"
