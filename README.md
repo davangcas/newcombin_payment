@@ -27,16 +27,16 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
-URLS
-localhost:8000/payables
-localhost:8000/transactions
+# URLS:
+- localhost:8000/payables
+- localhost:8000/transactions
 
 payables params in GET method:
--service_type
+- service_type
 
 transactions params in GET method:
--start_date
--end_date
+- start_date
+- end_date
 
 
 
